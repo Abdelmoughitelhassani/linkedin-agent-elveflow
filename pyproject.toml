@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "linkedin-content-agent"
+version = "1.0.0"
+description = "Agent IA pour générer des posts LinkedIn à partir de pages produits techniques"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "^0.86.0"
+crewai-tools = "^0.17.0"
+python-dotenv = "^1.0.1"
+pydantic = "^2.9.0"
+requests = "^2.32.0"
+beautifulsoup4 = "^4.12.0"
+lxml = "^5.3.0"
+trafilatura = "^1.12.0"
+setuptools = "^80.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+black = "^24.0.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+generate-post = "linkedin_agent:main"
