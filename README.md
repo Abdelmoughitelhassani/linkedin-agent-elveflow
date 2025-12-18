@@ -58,7 +58,7 @@ Ce projet a été réalisé dans le cadre du **test technique** pour le poste d'
 
 ```bash
 # Cloner le repo
-git clone https://github.com/[votre-username]/linkedin-agent-elveflow.git
+git clone https://github.com/Abdelmoughitelhassani/linkedin-agent-elveflow.git
 cd linkedin-agent-elveflow
 
 # Installer les dépendances
