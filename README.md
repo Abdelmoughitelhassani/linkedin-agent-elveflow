@@ -110,12 +110,11 @@ Avec plus de temps et de ressources, le projet pourrait évoluer vers :
 ├── pyproject.toml            # Configuration Poetry
 ├── .env.example              # Template variables d'environnement
 ├── output/                   # Posts générés
-└── docs/                     # Documentation et livrables
 ```
 
 ## 👤 Auteur
 
-Projet réalisé pour le test technique Elvesys/Elveflow - Décembre 2024
+Projet réalisé pour le test technique Elvesys/Elveflow - Décembre 2025
 
 ---
 
